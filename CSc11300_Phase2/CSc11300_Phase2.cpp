@@ -71,7 +71,7 @@ void displaySeats(bool seats[10][10]) {
 }
 
 int main() {
-    bool seats[10][10] = { false };     // Initializes array to False/0. 
+    bool seats[10][10] = {{false}};     // Initializes array to False/0. 
     int option;
 
     do {
